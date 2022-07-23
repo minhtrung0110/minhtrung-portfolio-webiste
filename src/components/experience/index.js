@@ -1,8 +1,8 @@
-import style from './experience.module.scss'
+import style from './experience.css'
 
 function Experience() {
     return (  
-        <div></div>
+        <section id="experiences">Experience</section>
     );
 }
 

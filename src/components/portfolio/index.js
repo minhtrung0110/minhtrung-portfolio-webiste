@@ -1,7 +1,9 @@
-import style from "./portfolio.module.scss"
+import style from "./portfolio.css"
 
 function Portfolio() {
-    return ( <></> );
+    return ( 
+    <section id="portfolio">Portfolio</section>
+     );
 }
 
 export default Portfolio;

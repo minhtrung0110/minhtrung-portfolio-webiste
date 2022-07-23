@@ -11,9 +11,15 @@ import Experience from './components/experience'
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
       <Header className=""/>
       <Nav/>
+      <About/>
+      <Portfolio />
+      <Contact/>
+      <Testimonials/>
+      <Experience/>
+      <Services/>
       <Footer/>
     </div>
   );

@@ -1,9 +1,9 @@
-import style from './footer.module.scss'
+import style from './footer.css'
 
 
 function Footer() {
     return (  
-        <div> </div>
+        <section>Footer </section>
     );
 }
 

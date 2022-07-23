@@ -1,7 +1,9 @@
-import style from './contact.module.scss'
+import style from './contact.css'
 
 function Contact() {
-    return ( <></> );
+    return (
+         <section id="contact" >Contact</section> 
+         );
 }
 
 export default Contact;

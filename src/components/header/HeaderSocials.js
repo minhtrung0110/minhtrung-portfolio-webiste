@@ -1,10 +1,9 @@
 import {FaGithub,FaFacebook} from 'react-icons/fa'
 import {BsLinkedin,BsInstagram} from 'react-icons/bs'
-import style from './header.module.scss'
 
 function HeaderSocials() {
     return ( 
-        <div className={style.header_socials}>
+        <div className='header_socials'>
             <a className="" href="https://www.facebook.com/NguyenDucMinhTrung0110/" target="_blank">
                 <FaFacebook/>
             </a>
@@ -14,9 +13,7 @@ function HeaderSocials() {
             <a className="" href="https://github.com/minhtrung0110" target="_blank">
             <FaGithub/>
             </a>
-            <a className="" href="https://www.instagram.com/dh.baotrung/" target="_blank">
-            <BsInstagram/>
-            </a>
+          
         </div>
      );
 }

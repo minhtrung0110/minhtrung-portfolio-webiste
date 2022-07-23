@@ -1,7 +1,7 @@
-import style from './testimonials.module.scss'
+import style from './testimonials.css'
 
 function  Testimonials() {
-    return ( <></> );
+    return ( <section id ="testimonials" >Testimonials</section> );
 }
 
 export default  Testimonials;
