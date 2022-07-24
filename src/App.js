@@ -11,17 +11,17 @@ import Experience from './components/experience'
 
 function App() {
   return (
-    <div className="">
-      <Header className=""/>
+    <>
+      <Header />
       <Nav/>
       <About/>
-      <Portfolio />
-      <Contact/>
-      <Testimonials/>
       <Experience/>
       <Services/>
+      <Portfolio />
+      <Testimonials/>
+      <Contact/>
       <Footer/>
-    </div>
+    </>
   );
 }
 
